@@ -12,6 +12,8 @@ returns a quantum state which is a superposition of indices of the target soluti
 
 The file **Task 1 Final-General_Circuit.ipynb** solves the Problem statement 1
 
+The file **Bonus_task_1.ipynb** contains solution for the bonus task.
+
 **Solution to the task**
 <p align="center">
   <img src="https://user-images.githubusercontent.com/35228896/133940258-cbb48309-75f5-493c-8b04-b4d85927096b.png" />
@@ -21,8 +23,7 @@ The file **Task 1 Final-General_Circuit.ipynb** solves the Problem statement 1
 
 **Bonus:**
 Design a general circuit that accepts vectors with random values of size 2n with m bits in length for each element and finds the state indicated above from an oracle.
-
-The file **Bonus_task_1.ipynb** contains solution for the bonus task. 
+ 
 
 **Generalized circuit**
 <p align="center">
@@ -33,7 +34,7 @@ The file **Bonus_task_1.ipynb** contains solution for the bonus task.
 **Extreme limits of the circuit**
 
 
-Since QASM allows to simulate at max 32 qubits, this restricts the value of  𝑛 < 7  (𝑛 is the number of addresses qubits) and  𝑚 < 8  (number of bits in the binary expansion of the number). At it's extreme i.e. 𝑛 = 6 and 𝑚 = 7 
+Since QASM allows to simulate at max 32 qubits, this restricts the value of  𝑛 < 7  (𝑛 is the number of addresses qubits) and  𝑚 < 8  (number of bits in the binary expansion of the number). At it's extreme i.e. 𝑛 = 6 and 𝑚 = 7. The remaining qubits are either used for the Oracle or ancillas required for the multi control troffoli gates.  
 
 
 <p align="center">
