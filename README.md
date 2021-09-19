@@ -42,3 +42,4 @@ Since QASM allows to simulate at max 32 qubits, this restricts the value of  ùë
 </p>
 
 
+ Above resuls are in excellent agreement with the theoretical predictions. In conclusion at it's best (Using all the resources from QASM) this approch efficiently finds solutions in haystack of 2^(6)= 64 numbers ranging between 0 to 127. It was a great learning opportunity. Looking forward for future challenges. :)  
