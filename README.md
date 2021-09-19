@@ -31,4 +31,13 @@ The file **Bonus_task_1.ipynb** contains solution for the bonus task.
 </p>
 
 **Extreme limits of the circuit**
-Since QASM allows to simulate at max 32 qubits, this restricts the value of  𝑛 < 7  (n is the number of addresses qubits) and  𝑚 < 8  (number of bits in the binary expansion of the number)
+
+
+Since QASM allows to simulate at max 32 qubits, this restricts the value of  𝑛 < 7  (𝑛 is the number of addresses qubits) and  𝑚 < 8  (number of bits in the binary expansion of the number). At it's extreme i.e. 𝑛 = 6 and 𝑚 = 7 
+
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/35228896/133940661-d9c970ed-8c8b-4e6b-b030-ef14aa459062.png" />
+  <em>Result for the largest problem</em>
+</p>
+
