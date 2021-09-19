@@ -13,9 +13,20 @@ returns a quantum state which is a superposition of indices of the target soluti
 The file **Task 1 Final-General_Circuit.ipynb** solves the Problem statement 1
 
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/35228896/133940258-cbb48309-75f5-493c-8b04-b4d85927096b.png" />
+  <em>Solution to the task</em>
+</p>
+
+
+
+
 
 **Bonus:**
 Design a general circuit that accepts vectors with random values of size 2n with m bits in length for each element and finds the state indicated above from an oracle.
 
-
-![Circuit-1](https://user-images.githubusercontent.com/35228896/133939955-e428364e-8dd7-4e65-8728-dd06fafaffb1.png)
+**Generalized circuit**
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/35228896/133939955-e428364e-8dd7-4e65-8728-dd06fafaffb1.png" />
+  <em>Generalized circuit with relevent number of qubits required</em>
+</p>
