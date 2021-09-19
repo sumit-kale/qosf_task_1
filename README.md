@@ -31,14 +31,15 @@ Design a general circuit that accepts vectors with random values of size 2n with
   <em>Generalized circuit with relevent number of qubits required</em>
 </p>
 
-**Extreme limits of the circuit**
+**Extreme limits of the approach**
 
 
-Since QASM allows to simulate at max 32 qubits, this restricts the value of  𝑛 < 7  (𝑛 is the number of addresses qubits) and  𝑚 < 8  (number of bits in the binary expansion of the number). At it's extreme i.e. 𝑛 = 6 and 𝑚 = 7. The remaining qubits are either used for the Oracle or ancillas required for the multi control troffoli gates.  
+Since QASM allows to simulate at max 32 qubits, this restricts the value of  𝑛 < 7  (𝑛 is the number of addresses qubits) and  𝑚 < 8  (number of bits in the binary expansion of the number). The remaining qubits are either used for the Oracle or ancillas required for the multi control troffoli gates. At it's extreme i.e. **𝑛 = 6 and 𝑚 = 7** the circuit becomes so big that qiskit can not draw it. **ValueError: Image size of 1604x250997 pixels is too large. It must be less than 2^16 in each direction.** 
 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/35228896/133940661-d9c970ed-8c8b-4e6b-b030-ef14aa459062.png" />
+  <img src="https://user-images.githubusercontent.com/35228896/133944929-36b2ebea-27ad-4e8e-982e-5ad76a4bef1f.png" />
   <em>Result for the largest problem</em>
 </p>
+
 
