@@ -2,7 +2,7 @@
 
 ### Cohort 4
 
-**Problem Statement: Task 1 **
+**Problem Statement: Task 1**
 
 
 Design a quantum circuit that considers as input the following vector of integers numbers: 
@@ -14,7 +14,7 @@ The file **Task 1 Final-General_Circuit.ipynb** solves the Problem statement 1
 
 The file **Bonus_task_1.ipynb** contains solution for the bonus task.
 
-**Solution to the task**
+**Solution for the task**
 <p align="center">
   <img src="https://user-images.githubusercontent.com/35228896/133940258-cbb48309-75f5-493c-8b04-b4d85927096b.png" />
 </p>
